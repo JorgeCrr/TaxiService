@@ -1,0 +1,12 @@
+package com.example.taxiservice;
+
+
+
+
+public class PlacesVisited2015{
+
+	public void generateReport() {
+		System.out.println("Places visited in 2015");		
+	}
+
+}

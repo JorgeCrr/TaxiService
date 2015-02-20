@@ -1,0 +1,15 @@
+DestinationName	Distance
+Jebel Ali	35.3
+Dubai International Airport	14.3
+Dubai Marina	21.4
+Sharjah International Airport	38.6
+Sharjah City Centre	19.8
+Ajmam	32.8
+Ras Al Khaimah	112
+Al Ain	148
+Abu Dhabi	143
+Umm Al Quwain	49.3
+Fujairah	166
+Hatta	136
+Dubai Internet City	21.2
+Yas Marina, Abu Dhabi	117
