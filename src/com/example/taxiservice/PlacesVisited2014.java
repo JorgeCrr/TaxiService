@@ -6,7 +6,7 @@ public class PlacesVisited2014{
 	
 //	ArrayList<Destination> destinations = new ArrayList<Destination>();
 	
-	public PlacesVisited2014(ArrayList<Destination> destinations)
+	public PlacesVisited2014()
 	{
 //		this.destinations=destinations;
 	}

@@ -14,8 +14,11 @@ public class FareTable {
 	private float farePerKM = 0;
 	private float fareAdditionalPassenger = 0;
 
-	public FareTable() {		
-		throw new UnsupportedOperationException();
+	public FareTable(Date startDate, float baseFare, float farePerKM, float fareAdditionalPassenger) {		
+		this.startDate = startDate;
+		this.baseFare = baseFare;
+		this.farePerKM = farePerKM;
+		this.fareAdditionalPassenger = fareAdditionalPassenger;
 	}
 
 	public Date getStartDate() {

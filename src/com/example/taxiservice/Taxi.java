@@ -11,8 +11,9 @@ public class Taxi {
 	private String registrationNumber = "";
 	private String driverName = "";
 
-	public Taxi() {
-		throw new UnsupportedOperationException();
+	public Taxi(String registrationNumber, String driverName) {
+		this.registrationNumber = registrationNumber;
+		this.driverName = driverName;
 	}
 
 	public String getRegistrationNumber() {

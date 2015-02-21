@@ -1,1 +1,7 @@
 JourneyID	JourneyDate	RegistrationNumber	DestinationName	NoOfPassengers
+1	01/02/2015	A23657	Jebel Ali	3
+2	01/01/2015	F9845	Umm Al Quwain	1
+3	03/01/2015	H35875	Fujairah	2
+4	11/01/2015	J4671	Hatta	4
+5	12/08/2015	K64290	Dubai Internet City	1
+6	09/10/2015	L25363	Yas Marina, Abu Dhabi	4
