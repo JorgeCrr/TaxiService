@@ -3,14 +3,15 @@ package com.example.taxiservice;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class DataSource {
 
-	private DestinationList destinations;	
+	private ArrayList<Destination> destinations;	
 	 
-	public DestinationList loadDestinations() {
-		destinations = new DestinationList();
+	public ArrayList<Destination> loadDestinations() {
+		destinations = new ArrayList<Destination>();
 		FileInputStream inputStream = null;
 		Scanner sc = null;
 		String data [] = new String[2];
@@ -22,12 +23,16 @@ public class DataSource {
 		        String line = sc.nextLine();
 		        data = line.split("\t");
 		        Destination objDestination = new Destination(data[0], Float.parseFloat(data[1]));
-		        destinations.addDestination(objDestination);
+		        destinations.add(objDestination);
 		    }
 		    return destinations;
 		}
 		catch (IOException e) {
 			e.printStackTrace();
+		}
+		catch (NumberFormatException nfex)
+		{
+			nfex.printStackTrace();
 		}
 		finally {
 		    if (inputStream != null) {
