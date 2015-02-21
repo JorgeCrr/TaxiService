@@ -8,7 +8,7 @@ package com.example.taxiservice;
 
 public class Destination {
 
-	private String name = null;
+	private String name = "";
 	private float distance = 0;
 
 	public Destination(String name, float distance) {
