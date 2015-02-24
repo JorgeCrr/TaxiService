@@ -23,7 +23,7 @@ public class TaxiService {
 		PlacesVisited2014 placesVisited2014 = new PlacesVisited2014();
 		placesVisited2014.generateReport(new ArrayList<Destination> (destinationMap.values()));
 		
-		FiveLeastExpensiveJourneys least = new FiveLeastExpensiveJourneys();
+		FiveLeastExpensiveJourneys least = new FiveLeastExpensiveJourneys(5);
 		least.generateReport(journeys);
 		
 	}
